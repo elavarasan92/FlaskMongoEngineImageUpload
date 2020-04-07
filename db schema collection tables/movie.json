@@ -1,0 +1,16 @@
+{
+	"_id" : ObjectId("5e896916c4153743d1eea2ac"),
+	"added_by" : ObjectId("5e88b4ce646b14976e1ca4e5"),
+	"casts" : [
+		"Christian Bale",
+		"Heath Ledger",
+		"Aaron Eckhart",
+		"Michael Caine"
+	],
+	"genres" : [
+		"Action",
+		"Crime",
+		"Drama"
+	],
+	"name" : "The Dark Knight"
+},

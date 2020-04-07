@@ -1,0 +1,22 @@
+{
+	"_id" : ObjectId("5e89fe4f14f0f45f86aaceac"),
+	"added_by" : ObjectId("5e88b4ce646b14976e1ca4e5"),
+	"bride_name" : "Saradha",
+	"created" : ISODate("2020-04-05T21:20:39.253+05:30"),
+	"event_date" : ISODate("2005-06-01T19:03:00.000+05:30"),
+	"groom_name" : "Muthu",
+	"mobile_no" : "8531990331",
+	"venue" : "Sakthi mahal",
+	"venue_address" : "Koilambakam main road, Chennai -600117."
+},
+{
+	"_id" : ObjectId("5e89fee714f0f45f86aaceae"),
+	"added_by" : ObjectId("5e89fe9e14f0f45f86aacead"),
+	"bride_name" : "Saradha",
+	"created" : ISODate("2020-04-05T21:23:11.155+05:30"),
+	"event_date" : ISODate("2005-06-01T19:03:00.000+05:30"),
+	"groom_name" : "Muthu",
+	"mobile_no" : "8531990331",
+	"venue" : "Sakthi mahal",
+	"venue_address" : "Koilambakam main road, Chennai -600117."
+},

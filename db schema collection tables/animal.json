@@ -1,0 +1,18 @@
+{
+	"_id" : ObjectId("5e8aceeae2082d08e24ea24d"),
+	"family" : "elavarasan",
+	"genus" : "elavarasan",
+	"photo" : "elavarasan"
+},
+{
+	"_id" : ObjectId("5e8ad084627f04029cc8ee67"),
+	"family" : "Sciuridae",
+	"genus" : "Marmota",
+	"photo" : ObjectId("5e8ad083627f04029cc8ee65")
+},
+{
+	"_id" : ObjectId("5e8ad4eb98482f9ba190a9d5"),
+	"family" : "Sciuridae",
+	"genus" : "Marmota",
+	"photo" : ObjectId("5e8ad4ea98482f9ba190a9d3")
+},

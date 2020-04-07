@@ -1,0 +1,9 @@
+{
+	"_id" : ObjectId("5e89fe9e14f0f45f86aacead"),
+	"email" : "rameshelava@gmail.com",
+	"event_detail" : [
+		ObjectId("5e89fee714f0f45f86aaceae")
+	],
+	"movies" : [ ],
+	"password" : "$2b$12$dw8l4cznqIlHeCklAznop.//Hl6maj.aoeYRWt40/r67ygeMlUPXe"
+},

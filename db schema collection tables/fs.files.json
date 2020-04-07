@@ -1,0 +1,28 @@
+{
+	"_id" : ObjectId("5e8ad083627f04029cc8ee65"),
+	"chunkSize" : NumberInt(261120),
+	"length" : NumberLong(253380),
+	"md5" : "7f02e7642165e37b983f91cce8224f87",
+	"uploadDate" : ISODate("2020-04-06T12:17:32.505+05:30")
+},
+{
+	"_id" : ObjectId("5e8ad4ea98482f9ba190a9d3"),
+	"chunkSize" : NumberInt(261120),
+	"length" : NumberLong(253380),
+	"md5" : "7f02e7642165e37b983f91cce8224f87",
+	"uploadDate" : ISODate("2020-04-06T12:36:19.003+05:30")
+},
+{
+	"_id" : ObjectId("5e8ae879b568e04da029fb6d"),
+	"chunkSize" : NumberInt(261120),
+	"length" : NumberLong(253380),
+	"md5" : "7f02e7642165e37b983f91cce8224f87",
+	"uploadDate" : ISODate("2020-04-06T13:59:45.146+05:30")
+},
+{
+	"_id" : ObjectId("5e8ae8b1b568e04da029fb70"),
+	"chunkSize" : NumberInt(261120),
+	"length" : NumberLong(10174706),
+	"md5" : "60d2e411eb2f43968bd63f3ea094999f",
+	"uploadDate" : ISODate("2020-04-06T14:00:41.391+05:30")
+},
