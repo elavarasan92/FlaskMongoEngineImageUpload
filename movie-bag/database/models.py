@@ -26,8 +26,7 @@ class EventDetail(db.Document):
 class CoupleImage(db.Document):
     image_id = db.IntField()
     image_name = db.StringField()
-    image_data = db.FileField()
-
+    image_data = db.ImageField(size=(300, 300, True), thumbnail_size=(150, 150, True))
 
 class User(db.Document):
     email = db.EmailField(required=True, unique=True)

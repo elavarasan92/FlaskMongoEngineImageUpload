@@ -1,8 +1,11 @@
 from .movie import MoviesApi, MovieApi
 from .event_detail import EventDetailsApi, EventDetailApi
-from .couple_image import CoupleImagesApi, CoupleImageApi
+from .couple_image import CoupleImagesApi, CoupleImageApi, DisplayImageApi
 from .auth import SignupApi, LoginApi
 from .reset_password import ForgotPassword, ResetPassword
+
+
+
 
 
 def initialize_routes(api):
@@ -13,6 +16,7 @@ def initialize_routes(api):
     api.add_resource(EventDetailApi, '/api/event_details/<id>')
 
     api.add_resource(CoupleImagesApi, '/api/couple_images')
+    api.add_resource(DisplayImageApi, '/api/display_image')
     api.add_resource(CoupleImageApi, '/api/couple_image/<id>')
 
     api.add_resource(SignupApi, '/api/auth/signup')

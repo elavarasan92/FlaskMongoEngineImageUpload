@@ -18,8 +18,18 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
 
+class DisplayImageApi(Resource):
+    def get(self):
+        image_value = CoupleImage.objects(image_id=1).first()
+        photo = image_value.image_data.read()
+        content_type = image_value.image_data.content_type
+        print(photo)
+        print(content_type)
+        return send_file(io.BytesIO(photo), attachment_filename='profile.png', mimetype='image/png')
+
+
 class CoupleImagesApi(Resource):
-    #to get html for uploading image
+    # to get html for uploading image
     def get(self):
         headers = {'Content-Type': 'text/html'}
         return make_response(render_template('file-upload.html'), 200, headers)
@@ -41,7 +51,7 @@ class CoupleImagesApi(Resource):
                 filename = secure_filename(file.filename)
                 couple_image = CoupleImage(image_id=1, image_name='Elavarasan')
                 couple_image.image_data.new_file()
-                couple_image.image_data.write(file)
+                couple_image.image_data.replace(file, filename="image.jpg")
                 couple_image.image_data.close()
                 couple_image.save()
 
