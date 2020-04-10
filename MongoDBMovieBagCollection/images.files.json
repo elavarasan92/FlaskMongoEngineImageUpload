@@ -1,0 +1,58 @@
+{
+	"_id" : ObjectId("5e902e75dcba660aa3589134"),
+	"chunkSize" : NumberInt(261120),
+	"format" : "JPEG",
+	"height" : NumberInt(150),
+	"length" : NumberLong(6759),
+	"md5" : "a0086513b83f19ba47d9fe348c70c4c2",
+	"uploadDate" : ISODate("2020-04-10T13:59:42.401+05:30"),
+	"width" : NumberInt(150)
+},
+{
+	"_id" : ObjectId("5e902e76dcba660aa3589136"),
+	"chunkSize" : NumberInt(261120),
+	"filename" : "conny.jpg",
+	"format" : "JPEG",
+	"height" : NumberInt(150),
+	"length" : NumberLong(6759),
+	"md5" : "a0086513b83f19ba47d9fe348c70c4c2",
+	"thumbnail_id" : ObjectId("5e902e75dcba660aa3589134"),
+	"uploadDate" : ISODate("2020-04-10T13:59:42.416+05:30"),
+	"width" : NumberInt(150)
+},
+{
+	"_id" : ObjectId("5e902e74dcba660aa3589133"),
+	"chunkSize" : NumberInt(261120),
+	"length" : NumberLong(0),
+	"md5" : "d41d8cd98f00b204e9800998ecf8427e",
+	"uploadDate" : ISODate("2020-04-10T13:59:42.419+05:30")
+},
+{
+	"_id" : ObjectId("5e90303a4d9b74c9c14128c3"),
+	"chunkSize" : NumberInt(261120),
+	"format" : "JPEG",
+	"height" : NumberInt(150),
+	"length" : NumberLong(6777),
+	"md5" : "3ddd65215d76c699810a07f146fc2f69",
+	"uploadDate" : ISODate("2020-04-10T14:07:14.756+05:30"),
+	"width" : NumberInt(150)
+},
+{
+	"_id" : ObjectId("5e90303a4d9b74c9c14128c5"),
+	"chunkSize" : NumberInt(261120),
+	"filename" : "image.jpg",
+	"format" : "JPEG",
+	"height" : NumberInt(300),
+	"length" : NumberLong(26010),
+	"md5" : "98eaac2cec025f29f355a317adcef2e0",
+	"thumbnail_id" : ObjectId("5e90303a4d9b74c9c14128c3"),
+	"uploadDate" : ISODate("2020-04-10T14:07:14.760+05:30"),
+	"width" : NumberInt(300)
+},
+{
+	"_id" : ObjectId("5e9030394d9b74c9c14128c2"),
+	"chunkSize" : NumberInt(261120),
+	"length" : NumberLong(0),
+	"md5" : "d41d8cd98f00b204e9800998ecf8427e",
+	"uploadDate" : ISODate("2020-04-10T14:07:14.763+05:30")
+},

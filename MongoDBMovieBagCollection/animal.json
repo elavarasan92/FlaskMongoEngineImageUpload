@@ -1,0 +1,6 @@
+{
+	"_id" : ObjectId("5e902e76dcba660aa3589138"),
+	"family" : "Sciuridae",
+	"genus" : "Marmota",
+	"photo" : ObjectId("5e902e76dcba660aa3589136")
+},
